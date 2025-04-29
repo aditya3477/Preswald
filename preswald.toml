@@ -1,0 +1,22 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Iris Data Explorer"
+logo = "images/Iris_veriscolor_3.png"
+favicon = "images/800px-Iris_veriscolor_1.png"
+
+[primaryColor]
+primaryColor = "#3B82F6"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
